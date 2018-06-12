@@ -1,0 +1,96 @@
+
+************* tests on the CS-COURSES graph **************
+READING cs-courses.tgf: Vertices: 
+[CS232, CS231, MATH225, CS235, CS110, CS230, CS240, CS114, CS215, CS111, CS251, CS242, CS315]
+
+Edges: 
+from CS232: []
+from CS231: []
+from MATH225: [CS231, CS235]
+from CS235: [CS251]
+from CS110: [CS215]
+from CS230: [CS232, CS231, CS235, CS251, CS242, CS315]
+from CS240: []
+from CS114: [CS230]
+from CS215: [CS315]
+from CS111: [CS230, CS240]
+from CS251: []
+from CS242: []
+from CS315: []
+
+CS graph in DFS: 
+(CS111, CS230, CS232, CS231, CS235, CS251, CS242, CS315, CS240):
+[CS111, CS230, CS232, CS231, CS235, CS251, CS242, CS315]
+
+CS graph in BFS: 
+(CS111, CS230, CS240, CS232, CS231, CS235, CS251, CS242, CS315):
+[CS111, CS231, CS235, CS251, CS215, CS232, CS242, CS315, CS230, CS240]
+
+CS-courses with no pre-requisites : 
+(MATH225, CS110, CS114, CS111):
+[MATH225, CS110, CS114, CS111]
+
+No followup courses:      
+(CS232, CS231, CS240, CS251, CS242, CS315):
+[CS232, CS231, CS240, CS251, CS242, CS315]
+
+--------> ONE WAY to satisfy pre-req:
+(MATH225, CS110, CS114, CS215, CS111, CS230, CS232, CS231, CS235, CS240, CS251, CS242, CS315):
+
+SAMPLE TESTING COMPLETE
+
+ADD YOUR OWN TESTING CODE BELOW
+Test 1: Clone
+Vertices: 
+[1, 2, 3, 4]
+
+Edges: 
+from 1: [2]
+from 2: [3]
+from 3: [1]
+from 4: []
+
+
+Test 2: isSink
+Is C a sink? Expected: true 
+Got: 
+true
+Is A a sink? Expected; false 
+Got: 
+false
+
+Test 3: allSinks
+Expected: [3][4] 
+Got: 
+[4]
+
+Test 4: Source
+Is D a source? Expected true 
+Got: 
+true
+Is B a source? Expected false 
+Got: 
+false
+
+Test 5: All Sources
+Expected: [4] 
+Got: 
+[4]
+
+Test 6: Is Isolated
+Is D isolated? Expected: true 
+Got: 
+true
+Is A isolated? Expected: false 
+Got: 
+false
+Test 7: DFS Traversal
+Expected: [a, b, c, d, i, g, e, h, f] 
+Got: 
+[a, b, c, d, i, g, e, h, f]
+
+Test 8: BFS Traversal
+Expected: [a, b, d, c, i, e, h, f, g] 
+Got: 
+[a, b, d, c, i, e, h, f, g]
+
