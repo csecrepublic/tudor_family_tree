@@ -16,19 +16,29 @@ The **FamilyTreeGUI** class uses Java Swing to create the interactive UI, includ
 
 ## Images
 When you run the program, it opens on the Family tab, with the Tudor family tree:
-![Tudor family tree](images/family-home)
+
+![Tudor family tree](images/family-home.png)
+
 
 When you click on a family member, it brings up their biographical information at the bottom:
-![Information about Elizabeth I](images/family-elizabeth)
+
+![Information about Elizabeth I](images/family-elizabeth.png)
+
 
 When you navigate to the Events tab, it gives you a choice of important events in Tudor history:
-![Important Tudor events](images/events-home)
+
+![Important Tudor events](images/events-home.png)
+
 
 When you click on an event, it brings up some brief historical information at the top:
-![Information about the Reformation](images/events-reformation)
+
+![Information about the Reformation](images/events-reformation.png)
+
 
 When you navigate to the Biography tab, it shows you a brief biographical overview of the Tudor dynasty:
-![Biographical overview of the Tudors](images/tudor-bio)
+
+![Biographical overview of the Tudors](images/tudor-bio.png)
+
 
 ## Technologies
 * Java
