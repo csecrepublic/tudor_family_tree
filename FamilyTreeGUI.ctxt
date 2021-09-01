@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FamilyTreeGUI
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Main\ Method\:\ Sets\ up\ a\ frame\ containing\ tabbed\ panes.\ \n\n\ @param\ String[]\ args\n\ @return\ void\n
+numComments=2

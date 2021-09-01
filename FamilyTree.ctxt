@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=FamilyTree
+comment1.params=
+comment1.target=FamilyTree()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ FamilyTree\n
+comment2.params=
+comment2.target=Family\ getCurrentFamily()
+comment2.text=\n\ getCurrentFamily\:\ returns\ the\ current\ family\n\ @param\ none\n\ @return\ Family\n
+comment3.params=familyName
+comment3.target=Family\ getFamily(java.lang.String)
+comment3.text=\n\ getFamily\:\ Getter\ method.\ Returns\ an\ object\ of\ type\ Family\ (value)\ \n\ based\ on\ the\ family\ name\ (key)\ provided\ as\ a\ parameter\n\n\ @param\ \ String\ familyname\n\ @return\ Family\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\n\ size\:\ Returns\ the\ number\ of\ families\ stored\ in\ the\ hashtable\n\ \n\ @param\ \n\ @return\ int\n
+comment5.params=
+comment5.target=Event\ getEventList()
+comment5.text=\n\ getEvents\n\ @param\n\ @return\ Event\n
+numComments=6

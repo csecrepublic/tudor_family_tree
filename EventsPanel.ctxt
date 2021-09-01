@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=EventsPanel
+comment1.params=givenFamilies
+comment1.target=EventsPanel(FamilyTree)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ EventsPanel\n
+numComments=2

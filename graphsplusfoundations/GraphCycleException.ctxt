@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=GraphCycleException
+comment0.text=\n\ DO\ NOT\ CHANGE\ THIS\ FILE.\n\ \n\ An\ exception\ to\ throw\ when\ encountering\ an\ unexpected\ cycle.\n
+numComments=1
